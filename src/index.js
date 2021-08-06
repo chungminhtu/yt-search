@@ -324,7 +324,7 @@ function getSearchResults ( _options, callback )
     queryString += '&sp=' + _options.sp
   }
 
-  const uri = TEMPLATES.SEARCH_DESKTOP + queryString
+  const uri = TEMPLATES.SEARCH_DESKTOP + queryString + '&sp=EgIoAQ%253D%253D'
 
   const params = _url.parse( uri )
 
